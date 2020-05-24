@@ -42,6 +42,9 @@ INSTALLED_APPS = [
 
     'accounts',
     'boards',
+
+    'bootstrap',
+    'fontawesome'
 ]
 
 MIDDLEWARE = [
@@ -131,3 +134,4 @@ STATICFILES_DIRS = [
 ]
 
 LOGOUT_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'home'
